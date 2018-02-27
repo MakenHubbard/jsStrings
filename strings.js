@@ -27,3 +27,9 @@ if (animal.toLowerCase() !== "alligator") {
 } else {
     console.log("small");
 }
+
+var yarn = 'the better string';
+var domString = "<h4>" + yarn + "</h4>";
+
+var myDiv = document.getElementById('yarn-holder');
+myDiv.innerHTML = domString;
