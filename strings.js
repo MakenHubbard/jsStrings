@@ -33,3 +33,11 @@ var domString = "<h4>" + yarn + "</h4>";
 
 var myDiv = document.getElementById('yarn-holder');
 myDiv.innerHTML = domString;
+
+//Challenge #5
+
+var str = 'IBMWLOVEbmcatsbmw'; // display ILOVEcats on the screen
+var test = str.replace(/[bmw]/ig,'');
+var domString = "<h4>" + test + "</h4>";
+var catElement = document.getElementById("cat-holder");
+catElement.innerHTML = domString;
